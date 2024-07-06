@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>What's the Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="banner">
+      <h1 id="heading">Mausam</h1>
+      <p class="subheading">Stay or Slay!</p>
+        <div class="head1">
+          <input id="searchbar" placeholder="Enter Desired Place" />
+          <button id="bton" type="submit">Search</button>
+        </div>
+    </div>
+    <div id="main_content">
+      <h1 id="city"></h1>
+      <p id="temprature"></p>
+      <p id="description"></p>
+      <div id="feelslike">
+        <img src="Feels-like.png" height="28px" width="25px">
+        <p id="FLtext">Feels Like:</p>
+      </div>
+      <div id="humidity">
+        <img src="humidity.png" height="28px" width="25px">
+        <p id="Htext" >Humidity:</p>
+      </div>
+      <div id="pressure">
+        <img id="pimg" src="Pressure.png" height="50px" width="60px">
+        <p id="Ptext" >Pressure</p>
+      </div>
+      <div id="visiblity">
+        <img src="Visibility.png" height="27px" width="25px">
+        <p id="Vtext" >Visibility:</p>
+      </div>
+      <div id="windspeed">
+        <img src="Wind-Speed.png" height="30px" width="32px">
+        <p id="WStext" >Wind-Speed:</p>
+      </div>
+    </div> 
+    <script src="index.js"></script>
+  </body>
+</html>
